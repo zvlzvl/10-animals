@@ -1,11 +1,11 @@
 import { Animal } from './Animal.js'
-class Fish extends Animal {
+class Bird extends Animal {
     constructor(name, color) {
-        super(name, color);
-        this.breed = 'Fish';
-        this.environment = 'water';
-        this.material = 'scales';
-        this.sound = 'Bul bul 🐠🐟...';
+        super(name, color)
+        this.breed = 'Bird';
+        this.environment = 'oras';
+        this.material = 'feathers';
+        this.sound = 'cyp hello kvi 🐓🦜🦅...';
     }
         voice() {
             console.log(`${this.breed} ${this.name} says: ${this.sound}`);
@@ -16,4 +16,4 @@ class Fish extends Animal {
         }
     }
     
-export { Fish }
+export { Bird }

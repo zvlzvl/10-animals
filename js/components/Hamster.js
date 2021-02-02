@@ -4,8 +4,9 @@ class Hamster extends Pet {
         super(name, color)
         this.breed = "Hamster"
         this.sound = 'Nom nom 🐹🐹!';
-        this.canEatTillDeath = true;
+      
     }
 }
+
 
 export { Hamster }

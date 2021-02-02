@@ -5,7 +5,6 @@ class GoldFish extends Fish {
         super(name, color);
         this.breed = 'Goldfish';
         this.grantsWishes = grantsWishes ?? false;
-        this.sound = 'Bul bul 🐠🐠...';
     }
 
     makeWish(wish) {
