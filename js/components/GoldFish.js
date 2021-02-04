@@ -4,7 +4,7 @@ class GoldFish extends Fish {
     constructor(name, color, grantsWishes) {
         super(name, color);
         this.breed = 'Goldfish';
-        this.grantsWishes = grantsWishes ?? false;
+        this.grantsWishes = grantsWishes ?? true;
     }
 
     makeWish(wish) {

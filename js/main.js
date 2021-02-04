@@ -26,25 +26,37 @@ kitty.introduce();
 
 hamis.voice();
 hamis.introduce();
+hamis.canEat();
+
+console.log('------------------------------');
 
 vistyte.voice();
 vistyte.introduce();
+vistyte.flyAway();
 
 kakadu.voice();
 kakadu.introduce();
+kakadu.flyAway();
 
 erelis.voice();
 erelis.introduce();
+erelis.flyAway();
 
 vabaliukas.voice();
 vabaliukas.introduce();
+vabaliukas.isImposter();
+vabaliukas.flyAway();
+
+console.log('------------------------------');
 
 nemo.voice();
 nemo.introduce();
+nemo.swimAway();
 
 ariele.voice();
 ariele.introduce();
 ariele.makeWish('Gyvo drakono');
+ariele.swimAway();
 
 
 
